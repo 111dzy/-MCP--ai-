@@ -1,0 +1,70 @@
+# ---- 操作系统 ----
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+.DS_Store
+$RECYCLE.BIN/
+
+# ---- 编辑器 / IDE ----
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# ---- Python ----
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+.ipynb_checkpoints/
+.pytest_cache/
+
+# ---- Node / 前端 ----
+node_modules/
+dist/
+.npm/
+npm-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# ---- 通用构建产物 ----
+build/
+out/
+output/
+bin/Debug/
+bin/Release/
+obj/
+*.log
+
+# ---- 临时文件 ----
+*.tmp
+*.temp
+*.bak
+*.orig
+~$*
+*.autosave
+
+# ---- 打包文件（如需分发再单独处理）----
+*.zip
+*.rar
+*.7z
+
+# ---- 密钥与本地配置（绝对不要提交）----
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+secrets.json
+config.local.*
+
+# ---- 注意 ----
+# 3D 模型（.stl/.obj/.step/.fcstd/.glb）默认不忽略，属于作品本体。
+# 但单个文件超过 100MB GitHub 会直接拒绝推送，超过 50MB 会警告。
+# 若模型过大，先压缩或改用 Git LFS：
+#   git lfs install
+#   git lfs track "*.stl"
+#   git add .gitattributes

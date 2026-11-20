@@ -1,0 +1,95 @@
+{
+  "timestamp": "20261119_142250",
+  "serverInfo": {
+    "name": "FreeCADMCP",
+    "version": "1.30.0"
+  },
+  "protocolVersion": "2025-06-18",
+  "toolCount": 18,
+  "toolNames": [
+    "create_document",
+    "create_object",
+    "edit_object",
+    "delete_object",
+    "execute_code_async",
+    "execute_code_headless",
+    "get_task_status",
+    "get_async_status",
+    "execute_code",
+    "get_view",
+    "insert_part_from_library",
+    "get_objects",
+    "get_object",
+    "get_parts_list",
+    "reload_document",
+    "list_documents",
+    "get_rpc_status",
+    "run_fem_analysis"
+  ],
+  "toolCalled": "execute_code_headless",
+  "isError": false,
+  "params": {
+    "length": 120.0,
+    "width": 60.0,
+    "thickness": 10.0,
+    "corner_radius": 3.0,
+    "hole_diameter": 4.5,
+    "hole_dx": 50.0,
+    "hole_dy": 20.0,
+    "stl_linear_deflection": 0.02,
+    "stl_angular_deflection": 0.3,
+    "output_dir": "D:/mcp-cup/out"
+  },
+  "buildCodeSha256": "582352655e0d85c086c328966e88f71e1a4f79170457bbcd7c1ec180a0cd1c7f",
+  "buildScriptSha256": "c3aed7f21fe7a5bddbc9f8fa70192f0c58eb34edc1b81f007c06754f7669c76f",
+  "result": {
+    "ok": true,
+    "params_file": "D:\\mcp-cup\\project\\bracket\\params.json",
+    "params": {
+      "length": 120.0,
+      "width": 60.0,
+      "thickness": 10.0,
+      "corner_radius": 3.0,
+      "hole_diameter": 4.5,
+      "hole_dx": 50.0,
+      "hole_dy": 20.0,
+      "stl_linear_deflection": 0.02,
+      "stl_angular_deflection": 0.3,
+      "output_dir": "D:/mcp-cup/out"
+    },
+    "volume_mm3": 71286.571,
+    "area_mm2": 18371.296,
+    "faces": 14,
+    "edges": 36,
+    "solids": 1,
+    "valid": true,
+    "bbox_mm": [
+      120.0,
+      60.0,
+      10.0
+    ],
+    "triangle_count": 876,
+    "files": {
+      "stl": {
+        "path": "D:/mcp-cup/out\\bracket.stl",
+        "bytes": 43884,
+        "sha256": "c08b6198fbffae4061dbfc4f1eeda8baa7c592e6854ea345b7edd74ed76504f0"
+      },
+      "step": {
+        "path": "D:/mcp-cup/out\\bracket.step",
+        "bytes": 18007,
+        "sha256": "371bfa25da6d437d7cd9911ac7a349b797b5ca52e4745862ca78db3151aadd8a"
+      },
+      "fcstd": {
+        "path": "D:/mcp-cup/out\\bracket.FCStd",
+        "bytes": 25574,
+        "sha256": "492267e4b846ccb8d9be81b20d925256aa5eaea5513adf44150c1c4c356cbeca"
+      },
+      "report": {
+        "path": "D:/mcp-cup/out\\build_report.json"
+      }
+    }
+  },
+  "logFile": "D:\\mcp-cup\\logs\\mcp_call_20261119_142250.jsonl",
+  "messageCount": 7
+}
