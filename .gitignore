@@ -52,6 +52,9 @@ obj/
 *.rar
 *.7z
 
+# ---- 行星发动机页面的调试产物（CDP 测试脚本、过程截图，约 11MB）----
+初赛作品1planetary-engine-3d/temporary/
+
 # ---- 密钥与本地配置（绝对不要提交）----
 .env
 .env.*
