@@ -1,0 +1,21 @@
+{
+  "issues": [
+    {
+      "severity": "P2",
+      "code": "decorative_blur_blob",
+      "message": "Page appears to use decorative blur/blob/orb backgrounds.",
+      "fileName": "index.html",
+      "evidence": ""
+    }
+  ],
+  "repairInstructions": [
+    "Fix P2 decorative_blur_blob in index.html: Page appears to use decorative blur/blob/orb backgrounds."
+  ],
+  "summary": {
+    "p0": 0,
+    "p1": 0,
+    "p2": 1,
+    "fileCount": 1,
+    "checkedAt": "2026-11-23T14:45:35.771054+00:00"
+  }
+}
